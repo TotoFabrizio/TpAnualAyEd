@@ -9,6 +9,7 @@
 using namespace std;
 
 int tirar(int[]);
+void jugar(int, int, int[], int[][]);
 
 int main()
 {
@@ -17,10 +18,14 @@ int main()
     cout << "Ingrese la cantidad de jugadores (3 a 5): ";
     cin >> jugdores;
 
-    jugada = tirar(juego);
+    tiradas = tirar(juego);
     for (i = 0;i < 5;i++) cout << juego[i] << " ";
     cout << endl;
-    cout << jugada;
+    cout << jugada<<endl;
+
+
+
+    return 0;
 }
 
 int tirar(int juego[5]) {
@@ -30,7 +35,9 @@ int tirar(int juego[5]) {
     };
     return (1 + rand() % (4 - 1));
 }
+void jugar(int jugador, int tiradas, int juego[5], int partida[11][5]) {
 
+}
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
 // Depurar programa: F5 o menú Depurar > Iniciar depuración
 
