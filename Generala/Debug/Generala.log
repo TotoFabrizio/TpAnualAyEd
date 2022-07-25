@@ -1,0 +1,4 @@
+﻿  Generala.cpp
+D:\Escritorio\tp anual AyEd\Generala\Generala.cpp(16,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+D:\Escritorio\tp anual AyEd\Generala\Generala.cpp(15,19): warning C4101: 'partida': variable local sin referencia
+  Generala.vcxproj -> D:\Escritorio\tp anual AyEd\Generala\Debug\Generala.exe
